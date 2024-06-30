@@ -1,17 +1,16 @@
 /*
-Exercise 4: generateEmail()
+Exercise 5: greetUser()
 
-Create a function named generateEmail. It should take two strings: 
-a name and a domain. It should return a simple email address.
+Define a function called greetUser. It should take a name and a 
+time of day (morning, afternoon, evening) and return a personalized 
+greeting.
 
-Example: generateEmail('johnsmith', 'example.com') 
-should return 'johnsmith@example.com'.
+Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 
 Complete the exercise in the space below:
 */
+function greetUser(name, evening){
+    return "Good" + " " + evening + " " + name
 
-function generateEmail(name, domain) {
-return name + "@" + domain;
 }
-
-console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
+console.log('Exercise 5 Result:', greetUser("Sam", "evening"));
