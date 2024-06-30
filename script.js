@@ -1,24 +1,17 @@
 /*
-Exercise 3: isCharAVowel()
+Exercise 4: generateEmail()
 
-Write a function named isCharAVowel that takes a single character as 
-an argument. It should return true if the character is a vowel and 
-false otherwise. For the purposes of this exercise, the character 
-y should not be considered a vowel.
+Create a function named generateEmail. It should take two strings: 
+a name and a domain. It should return a simple email address.
 
-Example: isCharAVowel('a') should return true.
+Example: generateEmail('johnsmith', 'example.com') 
+should return 'johnsmith@example.com'.
 
 Complete the exercise in the space below:
 */
 
-function isCharAVowel(char) {
-    const vowels = "aeiou";
-if (vowels.includes (char)) // used ChatGPT here
-{ return true; }
-else
-{ return false; }
+function generateEmail(name, domain) {
+return name + "@" + domain;
 }
-console.log('Exercise 3 Result:', isCharAVowel("w"));
 
-
-
+console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
