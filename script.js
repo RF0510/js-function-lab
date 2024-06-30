@@ -21,7 +21,7 @@ console.log('Exercise 7 Result:', calculateTip(20, 2));
 
 /*Exercise 7: calculateTip()
 
-Create a function called calculateTip. It should take two arguments: 
+Create a function called calculateTip. It should take two arguments: git 
 the bill amount and the tip percentage (as a whole number). 
 The function should return the amount of the tip.
 
