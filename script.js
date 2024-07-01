@@ -1,21 +1,18 @@
 /*
-Exercise 6: maxOfThree()
+Exercise 7: calculateTip()
 
-Define a function, maxOfThree. It should accept three numbers 
-and return the largest among them.
+Create a function called calculateTip. It should take two arguments: 
+the bill amount and the tip percentage (as a whole number). 
+The function should return the amount of the tip.
 
-Example: maxOfThree(17, 4, 9) should return 17.
+Example: calculateTip(50, 20) should return 10.
 
 Complete the exercise in the space below:
 */
 
-function maxOfThree(x, y, z){
-    if (x >= y && x >= z)
-    return x;
-    else if (y>=x && y>=z)
-    return y;
-    else return z;
+function calculateTip(billAmount, tipPercentage) 
+{ const tipAmount = (billAmount * tipPercentage) / 100; // usedChatGPT
+return tipAmount; }
 
-}
 
-console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
+console.log('Exercise 7 Result:', calculateTip(50, 20));
